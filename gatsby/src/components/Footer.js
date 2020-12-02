@@ -1,7 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Footer = (props) => (
-  <footer>&copy; Slick Slices {new Date().getFullYear()}</footer>
+  <footer>
+    <p className="center">&copy; Slick Slices {new Date().getFullYear()}</p>
+  </footer>
 );
 
 export default Footer;
